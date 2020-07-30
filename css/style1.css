@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Layout*/
+
+.header-area
+{
+    background-color: #f7b600;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#title
+{
+    padding: 15px;
+}
+
+body
+{
+    font: 1em "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*Formatações em geral*/
+h1
+{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.branco
+{
+    color: white;
+}
+
+/*
+Formatação dos links
+*/
+a
+{
+    text-decoration: none;
+    padding: 10px 10px 20px 10px;
+}
+
+a:link, a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+    color: #f7b600;
+    background-color: white;
+}
+
