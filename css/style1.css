@@ -24,6 +24,45 @@ body
     background-color: #e6e6e6;
 }
 
+#area-principal
+{
+    background-color: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area-postagens, #area-lateral
+{
+    background-color: orange;
+}
+
+#area-postagens
+{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral
+{
+    width: 240px;
+    float: right;
+}
+
+.postagem
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#rodape
+{
+    background-color: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
 /*Formatações em geral*/
 h1
 {
