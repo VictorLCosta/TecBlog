@@ -26,15 +26,10 @@ body
 
 #area-principal
 {
-    background-color: white;
     width: 920px;
     margin: 0 auto;
 }
 
-#area-postagens, #area-lateral
-{
-    background-color: orange;
-}
 
 #area-postagens
 {
@@ -55,6 +50,20 @@ body
     background-color: white;
 }
 
+.data-postagem
+{
+    font-size: 0.8em;
+    border-bottom: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#categorias
+{
+    background-color: white;
+    padding: 10px;
+}
+
 #rodape
 {
     background-color: #ccc;
@@ -63,11 +72,30 @@ body
     padding: 15px;
 }
 
+#postagens-recentes
+{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.resumo
+{
+    margin: 4px;
+}
+
 /*Formatações em geral*/
 h1
 {
     color: #4e4e4e;
     font-size: 2.5em;
+}
+
+h3
+{
+    color: #4e4e4e;
+    background-color: #ccc;
+    padding: 5px;
 }
 
 .branco
@@ -81,17 +109,34 @@ Formatação dos links
 a
 {
     text-decoration: none;
-    padding: 10px 10px 20px 10px;
+    
 }
 
 a:link, a:visited
 {
-    color: white;
+    color: #f7b600;
 }
 
 a:hover
+{
+    color: rgb(248, 248, 68);
+}
+
+.header-area a:link, .header-area a:visited
+{
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.header-area a:hover
 {
     color: #f7b600;
     background-color: white;
 }
 
+#categorias a:link, #categorias:visited
+{
+    display: block;
+    padding: 0;
+    font-weight: 1000;
+}
